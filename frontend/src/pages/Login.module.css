@@ -1,0 +1,129 @@
+.container {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #f9fafb;
+  padding: 3rem 1rem;
+}
+
+.formWrapper {
+  width: 100%;
+  max-width: 75%;
+  margin: 0 auto;
+}
+
+.formContent {
+  max-width: 28rem;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+.title {
+  margin-top: 1.5rem;
+  margin-bottom: 2rem;
+  text-align: center;
+  font-size: 2rem;
+  font-weight: 700;
+  color: #064232;
+}
+
+.form {
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.errorBox {
+  border-radius: 0.375rem;
+  background-color: #fef2f2;
+  padding: 1rem;
+}
+
+.errorText {
+  font-size: 0.875rem;
+  color: #991b1b;
+}
+
+.inputGroup {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.inputWrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.label {
+  display: block;
+  font-size: 0.875rem;
+  font-weight: 500;
+  color: #568F87;
+}
+
+.input {
+  appearance: none;
+  width: 100%;
+  padding: 0.75rem 1rem;
+  border: 1px solid #d1d5db;
+  border-radius: 0.5rem;
+  font-size: 0.875rem;
+  color: #111827;
+  background-color: white;
+  transition: all 0.2s;
+}
+
+.input::placeholder {
+  color: #9ca3af;
+}
+
+.input:focus {
+  outline: none;
+  border-color: #6b7280;
+  box-shadow: 0 0 0 3px rgba(107, 114, 128, 0.1);
+}
+
+.submitButton {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding: 0.75rem 1rem;
+  border: none;
+  border-radius: 0.5rem;
+  font-size: 0.875rem;
+  font-weight: 500;
+  color: white;
+  background-color: #F5BABB;
+  cursor: pointer;
+  transition: all 0.2s;
+  margin-top: 0.5rem;
+}
+
+.submitButton:hover {
+  background-color: #f3a9aa;
+}
+
+.submitButton:focus {
+  outline: none;
+  box-shadow: 0 0 0 3px rgba(245, 186, 187, 0.5);
+}
+
+.switchLink {
+  text-align: center;
+  margin-top: 1rem;
+}
+
+.switchLinkText {
+  font-size: 0.875rem;
+  color: #000000;
+  text-decoration: none;
+  transition: color 0.2s;
+}
+
+.switchLinkText:hover {
+  color: #374151;
+}

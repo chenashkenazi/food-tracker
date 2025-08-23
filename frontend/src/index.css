@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Global Styles */
+* {
+  font-family: 'Montserrat', sans-serif;
+}
+
+/* Color Variables */
+:root {
+  --primary-green: #064232;
+  --secondary-green: #568F87;
+  --button-pink: #F5BABB;
+}

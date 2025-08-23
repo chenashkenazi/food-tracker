@@ -1,0 +1,204 @@
+.container {
+  width: 100%;
+  max-width: 75%;
+  margin: 0 auto;
+  padding: 2rem 0;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+
+.title {
+  font-size: 1.875rem;
+  font-weight: 700;
+  color: #064232;
+}
+
+.headerControls {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.dateInput {
+  padding: 0.5rem 0.75rem;
+  border: 1px solid #d1d5db;
+  border-radius: 0.5rem;
+  font-size: 0.875rem;
+  color: #111827;
+  background-color: white;
+  transition: all 0.2s;
+}
+
+.dateInput:focus {
+  outline: none;
+  border-color: #6b7280;
+  box-shadow: 0 0 0 3px rgba(107, 114, 128, 0.1);
+}
+
+.addButton {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius: 50%;
+  background-color: #F5BABB;
+  color: white;
+  border: none;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.addButton:hover {
+  background-color: #f3a9aa;
+}
+
+.addButton:focus {
+  outline: none;
+  box-shadow: 0 0 0 3px rgba(245, 186, 187, 0.5);
+}
+
+.loadingContainer {
+  display: flex;
+  justify-content: center;
+  padding: 3rem 0;
+}
+
+.spinner {
+  animation: spin 1s linear infinite;
+  border-radius: 50%;
+  height: 3rem;
+  width: 3rem;
+  border: 2px solid transparent;
+  border-bottom-color: #F5BABB;
+}
+
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.statsGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+
+.statCard {
+  background-color: white;
+  border-radius: 0.5rem;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1);
+  padding: 1.5rem;
+}
+
+.statLabel {
+  font-size: 0.875rem;
+  font-weight: 500;
+  color: #6b7280;
+}
+
+.statValue {
+  margin-top: 0.5rem;
+  font-size: 1.875rem;
+  font-weight: 700;
+  color: #111827;
+}
+
+.statProgress {
+  margin-top: 0.5rem;
+}
+
+.statProgressText {
+  font-size: 0.75rem;
+  color: #6b7280;
+}
+
+.progressBar {
+  margin-top: 0.25rem;
+  width: 100%;
+  background-color: #e5e7eb;
+  border-radius: 9999px;
+  height: 0.5rem;
+}
+
+.progressFill {
+  height: 0.5rem;
+  border-radius: 9999px;
+  transition: width 0.3s ease;
+}
+
+.progressFillCalories {
+  background-color: #F5BABB;
+}
+
+.progressFillProtein {
+  background-color: #3b82f6;
+}
+
+.progressFillCarbs {
+  background-color: #10b981;
+}
+
+.progressFillFat {
+  background-color: #f59e0b;
+}
+
+.chartsGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  gap: 1.5rem;
+}
+
+.chartCard {
+  background-color: white;
+  border-radius: 0.5rem;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1);
+  padding: 1.5rem;
+}
+
+.chartTitle {
+  font-size: 1.125rem;
+  font-weight: 600;
+  color: #111827;
+  margin-bottom: 1rem;
+}
+
+.mealsList {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  max-height: 16rem;
+  overflow-y: auto;
+}
+
+.mealItem {
+  border-left: 4px solid #F5BABB;
+  padding-left: 1rem;
+}
+
+.mealName {
+  font-weight: 500;
+  color: #111827;
+}
+
+.mealType {
+  font-size: 0.875rem;
+  color: #6b7280;
+}
+
+.mealItems {
+  font-size: 0.875rem;
+  color: #4b5563;
+  margin-top: 0.25rem;
+}
+
+.noMeals {
+  color: #6b7280;
+}

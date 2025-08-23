@@ -1,0 +1,9 @@
+# PostgreSQL support (optional)
+# Install this if you want to use PostgreSQL instead of SQLite
+psycopg2-binary==2.9.9
+
+# Alternative for macOS if psycopg2-binary fails:
+# psycopg2==2.9.9
+# Note: psycopg2 (without -binary) requires PostgreSQL development files:
+# On macOS: brew install postgresql
+# Then: pip install psycopg2
