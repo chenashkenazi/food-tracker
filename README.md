@@ -106,3 +106,8 @@ food-tracking-website/
 │   └── package.json      # Node.js dependencies
 └── README.md
 ```
+
+## Screenshots
+<img width="1904" height="933" alt="Screen Shot 2025-08-24 at 14 35 46" src="https://github.com/user-attachments/assets/733a7e3f-c3d5-436d-a98d-6b99c32ebeaf" />
+<img width="1904" height="933" alt="Screen Shot 2025-08-24 at 14 36 11" src="https://github.com/user-attachments/assets/338af0a2-d606-4763-8743-7930bfc87e26" />
+
